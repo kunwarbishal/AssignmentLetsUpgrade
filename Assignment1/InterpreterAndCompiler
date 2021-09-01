@@ -1,0 +1,5 @@
+A compiler translste the compiler source program in a single line but Interpreter translate the source program line by line.
+Compiler is faster and Interpreter is slower than compiler.
+Compiler consumes less time and Interpreter consumes more time than compiler.
+Compilers are large in size and Interpreters are smaller in size.
+Compiler is used by programming language sucn as c, c++, java,c# etc. and Interpreter is used by programming languages such as Python, PHP, Perl, Ryby etc.
