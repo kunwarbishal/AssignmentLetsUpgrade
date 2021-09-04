@@ -1,0 +1,213 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navigation{
+    height: 60px;
+    width: 100%;
+    background-color:rgb(224, 221, 221);
+    display: flex;
+    justify-content: space-around;
+}
+.container{
+    width:80%;
+    height:60px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    color: black;
+    height: 60px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 35px;
+    /* background-color: blue; */
+}
+.nav{
+    height: 60px;
+    width: 55%;
+    display: flex;
+    /* background-color: yellow; */
+}
+.nav-links{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;  
+}
+.nav-li{
+    list-style-type: none;
+    height: 60px;
+    width: 25%;
+    font-family: 'Segoe UI';
+    text-align:center;
+    line-height: 60px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.nav-li:hover{
+    font-size: 20px;
+   text-decoration: underline;
+   background-color: rgb(49, 30, 30);
+   color: white;
+}
+/* banner */
+.banner{
+    height: 600px;
+    width: 100%;
+    background-image: url(./images/banner-tom.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: end;
+    
+}
+.banner-section{
+    
+    height: 120px;
+    width: 60%;
+    
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    color: white;
+    text-align: center;  
+}
+.btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color:red;
+    
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: transparent; 
+    border: solid red;
+    
+}
+/* flims */
+.flims{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.flims-containers{
+    width:90%;
+    padding-top: 10px;
+    padding-bottom:10px;
+    background-color: white;
+    margin-top: 30px;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    
+}
+
+.flim-card{
+    height:450px;
+    width:22%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+
+}
+.flim-detail{
+    height:225px;
+    width: 100%;
+    background-color:rgb(0,0,0,0.85);
+    transition: 0.9s;
+}
+.flim-detail:hover{
+    height: 100%;
+    cursor: pointer;
+}
+.film-title{
+    color: white;
+    font-family:serif;
+    font-size: 35px;   
+}
+.pad{
+    padding: 30px;
+}
+.card-1{
+    background-image: url(./images/venom.jpg);
+    background-size: cover;
+
+}
+.card-2{
+    background-image: url(./images/knightrises.jpg);
+    background-size: cover;
+
+}
+.card-3{
+    background-image: url(./images/inception.jpg);
+    background-size: cover;
+}
+.card-4{
+    background-image: url(./images/child44.jpg);
+    background-size: cover;
+
+}
+.card-5{
+    background-image: url(./images/deserter.jpg);
+    background-size: cover;
+
+}
+.card-6{
+    background-image: url(./images/splinter.jpg);
+    background-size: cover;
+
+}
+.card-7{
+    background-image: url(./images/capone.jpg);
+    background-size: cover;
+
+}
+.card-8{
+    background-image: url(./images/revenent.jpg);
+    background-size: cover;
+
+}
+.about{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.me{
+    margin: top 10px;
+    font-family:  sans-serif;
+}
+.about-tom{
+    padding-left: 60px;
+    padding-right:60px;
+    font-size: 20px;
+    font-family:sans-serif;
+    font-weight: bold; 
+}
+.footer{
+    color:white;
+    width:100%;
+    background-color: black;
+}
+
